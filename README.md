@@ -10,9 +10,9 @@ The full example is present in [microservices-tutorial](https://github.com/treve
 
 ## Application Structure
 
-<img src="docs/images/clean-architecture-diagram-1.png" alt="clean-architecture-diagram-1.jpg">
-<img src="docs/images/clean-architecture-diagram-2.png" alt="clean-architecture-diagram-2.jpg">
-<img src="docs/images/clean-architecture-diagram-2.png" alt="clean-architecture-diagram-3.jpg">
+<img src="docs/images/clean-architecture-diagram-1.jpg" alt="clean-architecture-diagram-1.jpg">
+<img src="docs/images/clean-architecture-diagram-2.jpg" alt="clean-architecture-diagram-2.jpg">
+<img src="docs/images/clean-architecture-diagram-3.jpg" alt="clean-architecture-diagram-3.jpg">
 
 ***
 
