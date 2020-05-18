@@ -111,3 +111,19 @@ buildNumber.properties
 .vscode
 
 RemoteSystemsTempFiles
+
+api-zipcode/.project
+
+api-zipcode/.settings/
+
+api-zipcode/api-zipcode-core/.classpath
+
+api-zipcode/api-zipcode-core/.project
+
+api-zipcode/api-zipcode-core/.settings/
+
+api-zipcode/api-zipcode-infraestructure/.classpath
+
+api-zipcode/api-zipcode-infraestructure/.project
+
+api-zipcode/api-zipcode-infraestructure/.settings/
