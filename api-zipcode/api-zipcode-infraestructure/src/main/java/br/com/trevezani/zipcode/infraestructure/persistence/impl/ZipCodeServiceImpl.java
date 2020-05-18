@@ -6,15 +6,12 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.Optional;
 
-import org.springframework.beans.factory.annotation.Autowired;
-
 import br.com.trevezani.zipcode.core.ZipCode;
 import br.com.trevezani.zipcode.core.ports.ZipCodeRepositoryService;
 
 public class ZipCodeServiceImpl implements ZipCodeRepositoryService {
 	private final Connection connection;
 	
-	@Autowired
 	public ZipCodeServiceImpl(final Connection connection) {
 		this.connection = connection;
 	}	

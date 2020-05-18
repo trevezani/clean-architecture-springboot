@@ -1,15 +1,12 @@
 package br.com.trevezani.zipcode.core.usecase;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.info.BuildProperties;
-
 import br.com.trevezani.zipcode.core.Info;
+import br.com.trevezani.zipcode.core.InternalBuildProperties;
 
 public class GetInformationUseCaseImpl implements GetInformationUseCase {
-	private final BuildProperties buildProperties;
+	private final InternalBuildProperties buildProperties;
 	
-	@Autowired
-	public GetInformationUseCaseImpl(final BuildProperties buildProperties) {
+	public GetInformationUseCaseImpl(final InternalBuildProperties buildProperties) {
 		this.buildProperties = buildProperties;
 	}	
 

@@ -1,6 +1,5 @@
 package br.com.trevezani.zipcode.infraestructure.delivery.impl;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -29,7 +28,6 @@ public class ZipCodeControllerImpl implements ZipCodeController {
 	private final ZipCodeRestConverter zipCodeRestConverter;
 	private final InformationRestConverter informationRestConverter;
 	
-	@Autowired
 	public ZipCodeControllerImpl(final GetZipInformationUseCase getZipInformationUseCase, final GetInformationUseCase getInformationUseCase, 
 			final ZipCodeRestConverter zipCodeRestConverter, final InformationRestConverter informationRestConverter) {
 		this.getZipInformationUseCase = getZipInformationUseCase;
