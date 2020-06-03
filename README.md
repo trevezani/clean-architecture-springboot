@@ -29,6 +29,6 @@ java -jar api-zipcode-infraestructure/target/api-zipcode.jar
 
 Once running, you can call:
 ```
-curl http://localhost:8080/info/zip/37188
+curl http://localhost:8080/zipcode/37188
 ```
 
