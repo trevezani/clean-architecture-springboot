@@ -4,7 +4,7 @@ Applied clean architecture in springboot
 
 It was based in [this presentation](http://www.slideshare.net/mattiabattiston/real-life-clean-architecture-61242830).
 
-The full example is present in [microservices-tutorial](https://github.com/trevezani/microservices-tutorial)
+The full example is present in [microservices-tutorial-springboot](https://github.com/trevezani/microservices-tutorial-springboot)
 
 ***
 
